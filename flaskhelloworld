@@ -5,6 +5,16 @@ git commit -m "first commit"
 git remote add origin https://github.com/Bwsutton1990/flask.git
 git push -u origin master
 
+$ git clone https://github.com/miguelgrinberg/flasky.git
+$ cd flasky
+$ git checkout 1a
+
+$ virtualenv venv
+
+$ source venv\Scripts\activate
+
+(venv) $ python
+
 from flask import Flask
 
 app = Flask(__name__)
